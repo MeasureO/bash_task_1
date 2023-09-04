@@ -1,0 +1,5 @@
+cd door_management_files
+cd door_configuration
+# Нажимаем латинскуaю А в vim, перемещаясь по файлу с помощью hjkl. Меняем CLOSED на OPEN в нужной строке. Нажимаем ESC и далее :wq, затем Enter.
+# Или так, как ниже
+# sed 's/CLOSED/OPEN/' door_1.conf
